@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './header/Header'
 
 const Front = () => {
   return (
-    <div>Front</div>
+    <div>
+    <Header/>
+    </div>
   )
 }
 

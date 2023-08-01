@@ -4,4 +4,81 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: hsl(356, 100%, 66%);
+    padding: 2%;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.header-upper-section {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    margin-left: 16%;
+    margin-right: 40%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 20%;
+    color: white;
+}
+
+.login {
+    border: none;
+    color: white;
+    background-color: transparent;
+    margin-left: 8%;
+}
+
+.signup {
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 10%;
+    height: 40px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.online-brand {
+    color: hsl(207, 13%, 34%);
+    margin-top: 0.0;
+}
+
+.header-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.start-for-free {
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 40px;
+    width: 10%;
+    color:hsl(356, 100%, 66%);
+    margin-right: 2%;
+}
+
+.learn-more {
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 40px;
+    width: 10%;
+    color: white;
+    background-color: transparent;
 }

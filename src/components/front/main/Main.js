@@ -2,6 +2,7 @@ import React from 'react'
 import Illustration from '../../../images/illustration-editor-desktop.svg'
 import './main.css'
 import SecondImage from '../../../images/illustration-phones.svg'
+import ThirdImage from '../../../images/illustration-laptop-desktop.svg'
 const Main = () => {
   return (
     <div className='main-container'>
@@ -25,6 +26,18 @@ const Main = () => {
             <p className='second-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis est id eum exercitationem facilis quasi nam sint odit, reprehenderit cupiditate veniam et quas excepturi maiores recusandae. Cumque dolorem dolor sint.</p>
         </div>
 
+    </div>
+
+    <div className="third-container">
+      <div className="left-container-in-third">
+        <img src={ThirdImage} alt="laptop" className='third-image'/>
+      </div>
+      <div className="right-container-in-third">
+        <h3>Free, Open, Simple</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ad est iste eum cumque culpa error enim quo magnam. Ipsum quae eveniet amet magni, sequi modi? Consequatur culpa facere at.</p>
+      <h3>Powerful tooling</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellendus atque deleniti in maiores explicabo. Unde labore officiis, sed iste fuga porro, rem cupiditate id, explicabo sunt dolorem beatae! Magnam.</p>
+      </div>
     </div>
         
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../../images/logo.svg'
 import './header.css'
+import IconArrowDown from '../../../images/icon-arrow-light.svg'
 
 const Header = () => {
     return (
@@ -10,9 +11,24 @@ const Header = () => {
                     <img src={Logo} alt="logo" className='logo' />
                     <nav>
                         <ul>
-                            <li>Product</li>
-                            <li>Company</li>
-                            <li>Connect</li>
+                            <li>
+                                <div className="link-item">
+                            <h4>Product</h4>
+                            <img src={IconArrowDown} alt="icon-arrow-down"  className='icon-arrow-down'/>
+                                </div>
+                                </li>
+                            <li>
+                            <div className="link-item">
+                            <h4>Company</h4>
+                            <img src={IconArrowDown} alt="icon-arrow-down" className='icon-arrow-down'/>
+                                </div>
+                            </li>
+                            <li>
+                            <div className="link-item">
+                            <h4>Connect</h4>
+                            <img src={IconArrowDown} alt="icon-arrow-down" className='icon-arrow-down' />
+                                </div>
+                            </li>
                         </ul>
                     </nav>
                     <button className='login'>Login</button>

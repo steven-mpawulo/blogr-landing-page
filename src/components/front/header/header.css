@@ -18,6 +18,15 @@ nav {
     margin-left: 16%;
     margin-right: 40%;
 }
+.link-item {
+    display: flex;
+    align-items: baseline;
+}
+
+.icon-arrow-down {
+    width: 5px;
+    height: 5px
+}
 
 ul {
     display: flex;

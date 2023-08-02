@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.right-container {
+    width: 50%;
+}
+.left-container {
+    width: 50%;
+}
+
+.illustration {
+    height: 50%;
+    position: relative;
+    left: 40%;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(208, 49%, 24%)
+}
+
+h3 {
+    color: hsl(208, 49%, 24%);
+}
+
+p {
+    color: hsl(207, 13%, 34%);
+}

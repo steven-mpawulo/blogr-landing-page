@@ -5,7 +5,8 @@ import SecondImage from '../../../images/illustration-phones.svg'
 import ThirdImage from '../../../images/illustration-laptop-desktop.svg'
 const Main = () => {
   return (
-    <div className='main-container'>
+    <main>
+      <div className='main-container'>
         <h2>Designed for the future</h2>
         <div className="wrapper">
         <div className="right-container">
@@ -41,6 +42,8 @@ const Main = () => {
     </div>
         
     </div>
+    </main>
+    
   )
 }
 

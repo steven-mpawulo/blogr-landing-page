@@ -67,3 +67,21 @@ p {
     color: white;
 }
 
+.third-container {
+    display: flex;
+}
+
+.left-container-in-third {
+    width: 50%;
+}
+
+.right-container-in-third {
+    width: 50%;
+}
+
+.third-image {
+    width: 100%;
+    position: relative;
+    left: -60px;
+}
+

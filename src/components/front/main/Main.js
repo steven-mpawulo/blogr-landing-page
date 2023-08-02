@@ -1,6 +1,7 @@
 import React from 'react'
 import Illustration from '../../../images/illustration-editor-desktop.svg'
 import './main.css'
+import SecondImage from '../../../images/illustration-phones.svg'
 const Main = () => {
   return (
     <div className='main-container'>
@@ -16,6 +17,15 @@ const Main = () => {
             <img src={Illustration} alt="illustration" className='illustration' />
         </div>
         </div>
+        <div className="second-container">
+        <img src={SecondImage} alt="illustration phones"  className='second-image'/>
+    
+        <div className="second-inner-container">
+            <h3 className='second-heading'>State of the Art Infrastructure</h3>
+            <p className='second-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis est id eum exercitationem facilis quasi nam sint odit, reprehenderit cupiditate veniam et quas excepturi maiores recusandae. Cumque dolorem dolor sint.</p>
+        </div>
+
+    </div>
         
     </div>
   )

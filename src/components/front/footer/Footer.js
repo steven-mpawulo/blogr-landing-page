@@ -12,29 +12,29 @@ const Footer = () => {
             </div>
             <div className="footer-second-container">
                 <h4>Product</h4>
-                <ul>
-                    <li><a href="#Overview">Overview</a></li>
-                    <li><a href="#Pricing">Pricing</a></li>
-                    <li><a href="#Market Place">Market Place</a></li>
-                    <li><a href="#Features">Features</a></li>
-                    <li><a href="#Integrations">Integrations</a></li>
+                <ul className='footer-ul'>
+                    <li className='footer-li'><a href="#Overview">Overview</a></li>
+                    <li className='footer-li'><a href="#Pricing">Pricing</a></li>
+                    <li className='footerli'><a href="#Market Place">Market Place</a></li>
+                    <li className='footer-li'><a href="#Features">Features</a></li>
+                    <li className='footer-li'><a href="#Integrations">Integrations</a></li>
                 </ul>
             </div>
             <div className="footer-fourt-container">
                 <h4>Company</h4>
-                <ul>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Team">Team</a></li>
-                    <li><a href="#Blog">Blog</a></li>
-                    <li><a href="Careers">Careers</a></li>
+                <ul className='footer-ul'>
+                    <li className='footer-li'><a href="#About">About</a></li>
+                    <li className='footer-li'><a href="#Team">Team</a></li>
+                    <li className='footer-li'><a href="#Blog">Blog</a></li>
+                    <li className='footer-li'><a href="Careers">Careers</a></li>
                 </ul>
             </div>
             <div className="footer-third-container">
                 <h4>Connect</h4>
-                <ul>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#Newsletter">Newsletter</a></li>
-                    <li><a href="#Linkedin">Linkedin</a></li>
+                <ul className='footer-ul'>
+                    <li className='footer-li'><a href="#Contact">Contact</a></li>
+                    <li className='footer-li'><a href="#Newsletter">Newsletter</a></li>
+                    <li className='footer-li'><a href="#Linkedin">Linkedin</a></li>
                 </ul>
             </div>
         </div>

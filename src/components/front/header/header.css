@@ -24,8 +24,10 @@ nav {
 }
 
 .icon-arrow-down {
-    width: 5px;
-    height: 5px
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+
 }
 
 ul {
